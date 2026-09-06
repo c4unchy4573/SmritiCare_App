@@ -44,6 +44,7 @@ class GameSession(Base):
     accuracy: Mapped[float] = mapped_column(Float)
     reaction_time: Mapped[float] = mapped_column(Float, nullable=True)
     mistakes: Mapped[int] = mapped_column(Integer, default=0)
+    attempts: Mapped[int] = mapped_column(Integer, default=0)   # NEW
     difficulty: Mapped[int] = mapped_column(Integer)
     duration: Mapped[int] = mapped_column(Integer)
     raw_payload: Mapped[dict] = mapped_column(JSON)

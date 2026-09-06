@@ -5,6 +5,8 @@ from sqlalchemy import select
 from app.database import get_db
 from app.auth import decode_token
 from app.models import User
+from fastapi import Header
+from app.config import settings
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/login")
 
@@ -26,3 +28,8 @@ def require_role(*roles: str):
             raise HTTPException(status.HTTP_403_FORBIDDEN, "Insufficient permissions")
         return user
     return checker
+
+async def require_service_token(x_service_token: str = Header(...)):
+    if x_service_token != settings.service_token:
+        raise HTTPException(status.HTTP_401_UNAUTHORIZED, "Invalid service token")
+    return True
