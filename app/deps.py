@@ -7,6 +7,8 @@ from app.auth import decode_token
 from app.models import User
 from fastapi import Header
 from app.config import settings
+from sqlalchemy import select
+from app.models import CaregiverLink
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/login")
 
@@ -33,3 +35,11 @@ async def require_service_token(x_service_token: str = Header(...)):
     if x_service_token != settings.service_token:
         raise HTTPException(status.HTTP_401_UNAUTHORIZED, "Invalid service token")
     return True
+
+async def verify_caregiver_access(caregiver_id, patient_id, db: AsyncSession) -> bool:
+    stmt = select(CaregiverLink).where(
+        CaregiverLink.caregiver_id == caregiver_id,
+        CaregiverLink.patient_id == patient_id,
+    )
+    result = await db.execute(stmt)
+    return result.scalar_one_or_none() is not None

@@ -113,3 +113,44 @@ class RecommendationOut(BaseModel):
     class Config:
         from_attributes = True
         populate_by_name = True
+
+
+ReminderCategory = Literal["medicine", "appointment", "meal", "hydration", "exercise", "family"]
+
+class ReminderIn(BaseModel):
+    category: ReminderCategory
+    title: str
+    scheduledTime: datetime
+    isRecurring: bool = False
+
+class ReminderOut(BaseModel):
+    id: uuid.UUID
+    patientId: uuid.UUID = Field(validation_alias="patient_id")
+    category: str
+    title: str
+    scheduledTime: datetime = Field(validation_alias="scheduled_time")
+    isRecurring: bool = Field(validation_alias="is_recurring")
+    completed: bool
+
+    class Config:
+        from_attributes = True
+        populate_by_name = True
+
+class DashboardToday(BaseModel):
+    patientId: uuid.UUID
+    dueReminders: list[ReminderOut]
+    latestRecommendation: RecommendationOut | None
+    recentSessions: list[SessionOut]
+
+class TrendPoint(BaseModel):
+    skill: str
+    score: float
+
+class CaregiverDashboard(BaseModel):
+    patientId: uuid.UUID
+    patientName: str
+    lastSession: SessionOut | None
+    trends: list[TrendPoint]
+    nextSession: RecommendationOut | None
+    changeFlag: bool
+    totalSessions: int

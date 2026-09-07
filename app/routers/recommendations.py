@@ -51,7 +51,10 @@ async def latest_recommendation(
         raise HTTPException(404, "No recommendation yet for this patient")
     return rec
 
-@router.post("/patients/{patient_id}/recommendations/generate-stub", response_model=RecommendationOut)
+@router.post("/patients/{patient_id}/recommendations/generate-stub", 
+             response_model=RecommendationOut,
+               include_in_schema=False, 
+             )
 async def trigger_stub_recommendation(
     patient_id: uuid.UUID,
     user: User = Depends(get_current_user),
