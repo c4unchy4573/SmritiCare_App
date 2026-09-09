@@ -99,8 +99,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\ShaderGraphNodeValidationExtension.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Drawing\Views\Slots\BooleanSlotControlView.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Graphs\Vector3MaterialSlot.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Interfaces\IMayRequireDepthTexture.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Generation\Targets\PreviewTarget.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Interfaces\IMayRequireDepthTexture.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Generation\Descriptors\BlockFieldDescriptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Drawing\Views\Slots\PropertyConnectionStateSlotControlView.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Generation\Processors\PropertyCollector.cs" />
@@ -256,8 +256,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Drawing\Inspector\PropertyDrawers\ColorPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Generation\Collections\PassCollection.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Nodes\Math\Interpolation\LerpNode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Nodes\UV\TriplanarNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Nodes\UV\ParallaxMappingNode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Nodes\UV\TriplanarNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Util\KeywordCollector.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Drawing\Views\IShaderNodeView.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Interfaces\IGeneratesFunction.cs" />
@@ -324,8 +324,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Graphs\CubemapInputMaterialSlot.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Legacy\SerializableGuid.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Nodes\Input\Scene\SceneDepthNode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Drawing\Colors\IColorProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Graphs\Texture3DShaderProperty.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Drawing\Colors\IColorProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Nodes\Utility\KeywordNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Nodes\LegacyUnknownTypeNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Graphs\DynamicValueMaterialSlot.cs" />
