@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Mehran\\unitygames\\SMRITICARE APP\\SmritiCare_App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\mehran\\unitygames\\smriticare app\\smriticare_app\\assets\\scripts\\prakritispotter\\prakritispotter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\prakritispotter\\prakritispotter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\mehran\\unitygames\\smriticare app\\smriticare_app\\assets\\scripts\\prakritispotter\\prakriti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\prakritispotter\\prakriti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\mehran\\unitygames\\smriticare app\\smriticare_app\\assets\\scripts\\new number sequence\\numbersequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\new number sequence\\numbersequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\mehran\\unitygames\\smriticare app\\smriticare_app\\assets\\scripts\\memory card\\memorycard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\memory card\\memorycard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\mehran\\unitygames\\smriticare app\\smriticare_app\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mehran\\unitygames\\SMRITICARE APP\\SmritiCare_App\\Assets\\Scripts\\NERquiz\\NERQuizController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\NERquiz\\NERQuizController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\mehran\\unitygames\\smriticare app\\smriticare_app\\assets\\scripts\\prakritispotter\\prakritispotter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\prakritispotter\\prakritispotter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\mehran\\unitygames\\smriticare app\\smriticare_app\\assets\\scripts\\prakritispotter\\prakriti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\prakritispotter\\prakriti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Mehran\\unitygames\\SMRITICARE APP\\SmritiCare_App\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Mehran\\unitygames\\SMRITICARE APP\\SmritiCare_App\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwDMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T17:56:03.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Prakriti.cs",
               "DocumentMoniker": "C:\\Users\\Mehran\\unitygames\\SMRITICARE APP\\SmritiCare_App\\Assets\\Scripts\\prakritiSpotter\\Prakriti.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\prakritiSpotter\\Prakriti.cs",
@@ -42,45 +63,59 @@
               "RelativeToolTip": "Assets\\Scripts\\prakritiSpotter\\Prakriti.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T12:18:07.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T12:18:07.472Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "PrakritiSpotter.cs",
               "DocumentMoniker": "C:\\Users\\Mehran\\unitygames\\SMRITICARE APP\\SmritiCare_App\\Assets\\Scripts\\prakritiSpotter\\PrakritiSpotter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\prakritiSpotter\\PrakritiSpotter.cs",
               "ToolTip": "C:\\Users\\Mehran\\unitygames\\SMRITICARE APP\\SmritiCare_App\\Assets\\Scripts\\prakritiSpotter\\PrakritiSpotter.cs",
               "RelativeToolTip": "Assets\\Scripts\\prakritiSpotter\\PrakritiSpotter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABUAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-09T11:12:44.787Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MemoryCard.cs",
               "DocumentMoniker": "C:\\Users\\Mehran\\unitygames\\SMRITICARE APP\\SmritiCare_App\\Assets\\Scripts\\memory card\\MemoryCard.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\memory card\\MemoryCard.cs",
               "ToolTip": "C:\\Users\\Mehran\\unitygames\\SMRITICARE APP\\SmritiCare_App\\Assets\\Scripts\\memory card\\MemoryCard.cs",
               "RelativeToolTip": "Assets\\Scripts\\memory card\\MemoryCard.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T06:36:30.257Z"
+              "WhenOpened": "2026-09-09T06:36:30.257Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "NumberSequence.cs",
               "DocumentMoniker": "C:\\Users\\Mehran\\unitygames\\SMRITICARE APP\\SmritiCare_App\\Assets\\Scripts\\new number sequence\\NumberSequence.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\new number sequence\\NumberSequence.cs",
               "ToolTip": "C:\\Users\\Mehran\\unitygames\\SMRITICARE APP\\SmritiCare_App\\Assets\\Scripts\\new number sequence\\NumberSequence.cs",
               "RelativeToolTip": "Assets\\Scripts\\new number sequence\\NumberSequence.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAcwHEAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAcwHEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T05:51:24.049Z"
+              "WhenOpened": "2026-09-09T05:51:24.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NERQuizController.cs",
+              "DocumentMoniker": "C:\\Users\\Mehran\\unitygames\\SMRITICARE APP\\SmritiCare_App\\Assets\\Scripts\\NERquiz\\NERQuizController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NERquiz\\NERQuizController.cs",
+              "ToolTip": "C:\\Users\\Mehran\\unitygames\\SMRITICARE APP\\SmritiCare_App\\Assets\\Scripts\\NERquiz\\NERQuizController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NERquiz\\NERQuizController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwCsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T15:11:15.941Z",
+              "EditorCaption": ""
             }
           ]
         }

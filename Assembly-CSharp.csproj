@@ -63,7 +63,9 @@
     <Compile Include="Assets\Clouded Studio\2D Simple Nature Pack\Scripts\LightSunOcillation.cs" />
     <Compile Include="Assets\Scripts\nomber seq\NumberDigitDisplay.cs" />
     <Compile Include="Assets\Cartoon UI\Script\Close.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Pattern\PatternRecallController.cs" />
+    <Compile Include="Assets\Scripts\NERquiz\NERQuizController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
